@@ -1,0 +1,46 @@
+.job-container{
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    margin: 0 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.job-container h3{
+    margin: 8px 0;
+}
+
+.com-name{
+    margin: 7px 0;
+}
+
+.job-type{
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.job-time{
+    border: 1px solid var(--Linear, #7E90FE);
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.loc-info{
+    display: flex;
+    gap: 20px;
+}
+
+.loc-info img{
+    height: 20px;
+    width: 20px;
+}
+
+.job-loc{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 8px 0;
+}

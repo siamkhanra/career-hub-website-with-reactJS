@@ -1,0 +1,30 @@
+.footer-main-container{
+    background-color: black;
+    color: white;
+    padding: 20px 130px 20px 130px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    border-bottom: 2px solid transparent; /* Set an initial transparent border */
+    border-image: linear-gradient(90deg, rgba(126, 144, 254, 0.20) 0%, rgba(152, 115, 255, 0.20) 100%) 1;
+}
+
+.footer-container p{
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.footer-text p{
+    margin-right: 9px;
+    padding-right: 10px;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.footer-last p{
+    color: rgba(255, 255, 255, 0.70);
+}
