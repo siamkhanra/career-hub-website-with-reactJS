@@ -44,3 +44,8 @@
     gap: 5px;
     margin: 8px 0;
 }
+
+/* Add new style for button-clicked state */
+.job-container.button-clicked .apply-btn {
+    background-color: #555; /* Change to the desired style for clicked state */
+}
