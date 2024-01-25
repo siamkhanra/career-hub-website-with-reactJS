@@ -8,6 +8,7 @@ import email from '../../../public/icons/email.png'
 import address from '../../../public/icons/location2.png'
 import Footer from '../Footer/Footer';
 import { useNavigate } from 'react-router-dom';
+import Job from '../Job/Job';
 
 
 const JobDetails = () => {
@@ -19,7 +20,10 @@ const JobDetails = () => {
 
     const navigate = useNavigate();
 
+    const [applied, setApplied] = useState(false);
+
     const handleClick = (id) =>{
+        setApplied(true);
         navigate('jobs', { state: { job } })
     }
 
@@ -30,7 +34,7 @@ const JobDetails = () => {
 
     return (
         <div>
-            <div className='job-details-main-container'>
+            <div>
                 <div className='job-details-container'>
                     <h1>Job Details</h1>
                 </div>

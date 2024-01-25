@@ -14,7 +14,7 @@ const AppliedJobs = () => {
                 <h2>Applied Jobs</h2>
             </div>
             <div>
-                <Job key={id} job={job}></Job>
+                <Job key={id} job={job} customStyle='applied'></Job>
             </div>
         </div>
     );

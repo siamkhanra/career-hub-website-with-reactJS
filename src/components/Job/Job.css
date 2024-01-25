@@ -45,7 +45,23 @@
     margin: 8px 0;
 }
 
-/* Add new style for button-clicked state */
-.job-container.button-clicked .apply-btn {
-    background-color: #555; /* Change to the desired style for clicked state */
+.applied.job-container {
+    /* Styles applied when the "Apply Now" button is clicked */
+    display: flex;
+    align-items: center;
+    margin: 80px 130px;
 }
+
+.applied.job-container .logo-img{
+    border-radius: 8px;
+    background: var(--Dark-07, #F4F4F4);
+    padding: 70px 30px;
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+}
+
+.job-info-container{
+    margin-right: 200px;
+}
+
